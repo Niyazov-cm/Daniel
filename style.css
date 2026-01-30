@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Georgia", serif;
+}
+
+body {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero {
+  background: #e99d04;
+  width: 800px;
+  padding: 60px;
+}
+
+.content h1 {
+  font-size: 48px;
+  font-weight: 500;
+  color: #111;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.content h1 .italic {
+  font-style: italic;
+}
+
+.content p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #444;
+  max-width: 520px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 12px 22px;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.primary {
+  background: #111;
+  color: #fff;
+  border: none;
+}
+
+.outline {
+  background: transparent;
+  border: 1px solid #aaa;
+  color: #111;
+}
+
+.rating {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #444;
+}
+
+.rating span {
+  color: #777;
+}
